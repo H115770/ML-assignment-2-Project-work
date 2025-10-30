@@ -6,3 +6,6 @@ data/
 *.parquet
 models/*.pkl
 models/*.joblib
+
+!data/
+!data/.gitkeep
