@@ -4,7 +4,7 @@
 data/
 *.csv
 *.parquet
-models/*.pkl
+#models/*.pkl
 models/*.joblib
 
 !data/

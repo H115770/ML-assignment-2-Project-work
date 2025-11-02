@@ -1,5 +1,10 @@
-import numpy as np
+
 import streamlit as st
+#  HEADER
+
+st.set_page_config(page_title="Bruktbilpris-prediksjon", layout="centered")
+
+import numpy as np
 import pandas as pd
 import joblib
 import re
@@ -26,9 +31,7 @@ info = load_info()
 brand_models = load_brand_list()
 
 
-#  HEADER
 
-st.set_page_config(page_title="Bruktbilpris-prediksjon", layout="centered")
 
 st.title(" Bruktbilpris-prediksjon med XGBoost")
 st.write(
