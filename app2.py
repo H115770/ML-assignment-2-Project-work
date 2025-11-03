@@ -134,7 +134,5 @@ if st.button("🔮 Estimer pris"):
 
 st.markdown("---")
 st.caption(
-    "Appen bruker en XGBoost-pipeline trent på log(pris+1). "
-    "Alle nødvendige features genereres automatisk fra brukerinput. "
-    "Bilmodell-listen leses fra en ren JSON-fil i UTF-8-format."
+
 )
