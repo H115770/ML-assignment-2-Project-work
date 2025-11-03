@@ -134,5 +134,7 @@ if st.button("🔮 Estimer pris"):
 
 st.markdown("---")
 st.caption(
+    "Appen bruker en XGBoost-pipeline "
+    "Alle nødvendige features genereres automatisk fra brukerinput. "
 
 )
